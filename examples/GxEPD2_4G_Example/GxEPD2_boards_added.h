@@ -76,6 +76,9 @@
 //GxEPD2_4G_4G<GxEPD2_420, GxEPD2_420::HEIGHT> display(GxEPD2_420(/*CS=5*/ 5, /*DC=*/ 2, /*RST=*/ 0, /*BUSY=*/ 4));
 // note: need to use half height buffer, to stay < 96000 bytes of RAM, would hang on setup else
 //GxEPD2_4G_4G<GxEPD2_750_T7, GxEPD2_750_T7::HEIGHT / 2> display(GxEPD2_750_T7(/*CS=5*/ 5, /*DC=*/ 2, /*RST=*/ 0, /*BUSY=*/ 4));
+#define CLK   (18)
+#define MOSI  (23)
+GxEPD2_4G_4G<GxEPD2_213_T5, GxEPD2_213_T5::HEIGHT> display(GxEPD2_213_T5(5,17,16,4));
 #endif
 
 #endif

@@ -20,6 +20,7 @@
 #include "epd/GxEPD2_371.h"
 #include "epd/GxEPD2_420.h"
 #include "epd/GxEPD2_750_T7.h"
+#include "epd/GxEPD2_213_T5.h"
 
 #ifndef ENABLE_GxEPD2_4G_GFX
 // default is off
